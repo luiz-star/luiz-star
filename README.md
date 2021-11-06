@@ -7,9 +7,9 @@
 
 <p align = "left"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src = "https://github-profile-trophy.vercel.app /? username = luiz-star "alt =" luiz-star "/> </a> </p>
 
-- 🔭 Atualmente estou trabalhando em [Matemática por trás Machine Learning] https: //www.i2ai.org 
+- 🔭 Atualmente estou trabalhando em [Matemática por trás do Machine Learning] https: //www.i2ai.org 
 
-- 🌱 Estou atualmente aprendendo Estratégia de Estratégia ** Mestrado em Engenharia em Engenharia em Software ** Mestrado
+- 🌱 Estou atualmente aprendendo ** Mestrado em Engenharia em Engenharia em Software ** Mestrado
 
 - 👨‍💻 Todos os meus projetos estão disponíveis em [luiz-star.github.io/ (Portfólio)] (luiz-star.github.io/ (Portfólio))
 
