@@ -1,6 +1,6 @@
 # 👋  Luiz Henrique de O. Bueno
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/luiz-star)](https://github.com/luiz-star)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/linkedin.com/in/luiz-henrique-sc/)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/luiz-henrique-sc/)
 
 Entusiasta em Ciência de Dados / Eng.de Software / Business Intelligence 
 
