@@ -9,7 +9,7 @@ Entusiasta em Ciência de Dados / Eng.de Software / Business Intelligence
 
 - 🔭 Pós Graduando MBA Ciência de Dados [PUC RIO](https://www.cce.puc-rio.br/sitecce/website/website.dll/acesso_restrito?nInst=cce) 
 
-- 🌱  Mestrando em Direção Estratégica em Engenharia em Software [Universidad Europea del Atlántico](https://www.funiber.org.br/mestrado-em-direcao-estrategica-em-engenharia-de-software)
+
 
 - 👨‍💻 Todos os meus projetos estão disponíveis em https://github.com/luiz-star/luiz-star.github.io
 
