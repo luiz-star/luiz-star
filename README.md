@@ -1,113 +1,61 @@
-# 👋  Luiz Henrique de O. Bueno
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/luiz-star)](https://github.com/luiz-star)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/luiz-henrique-sc/)
+# Luiz Henrique de O. Bueno
 
-Entusiasta em Ciência de Dados / Eng.de Software / Business Intelligence 
+Professor e Consultor | Data & Cloud Architect | Governança de Dados | BI & Analytics | Machine Learning | AWS & Azure
 
+[LinkedIn](https://www.linkedin.com/in/luiz-henrique-sc) • [E-mail](mailto:riquebue@hotmail.com) • [Portfólio 1](https://www.startrainings.net/blog) • [Portfólio 2](https://luiz-star.github.io) • [Empresa](https://www.startrainings.net/)
 
+- Local: Mafra, Santa Catarina, Brasil
+- Idiomas: Português (Nativo), Espanhol (Profissional), Inglês (Intermediário)
 
+[English version below](#english-version)
 
-- 🔭 Pós Graduando MBA Ciência de Dados [PUC RIO](https://www.cce.puc-rio.br/sitecce/website/website.dll/acesso_restrito?nInst=cce) 
+---
 
+## Badges
 
+<!-- Certificações (clique para verificar) -->
+[![AWS Certified Machine Learning – Specialty](https://img.shields.io/badge/AWS-ML%20Specialty-orange?logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/2849aea2-ba81-4ee8-86c0-d2848284692b/public_url)
+[![AWS Certified Solutions Architect – Professional](https://img.shields.io/badge/AWS-Solutions%20Architect%20Pro-orange?logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/9f4c64e4-d1f2-4a00-976e-82275e844ec7/public_url)
+[![Microsoft Certified: Azure Solutions Architect Expert](https://img.shields.io/badge/Azure-Solutions%20Architect%20Expert-0078D4?logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/pt-br/users/luizhenriquedeoliveirabueno-7070/credentials/dd00a3f2c24ed014?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+[![Microsoft Certified: Azure Administrator Associate](https://img.shields.io/badge/Azure-Administrator%20Associate-0078D4?logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/pt-br/users/luizhenriquedeoliveirabueno-7070/credentials/bf7ca8841cd428e2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
-- 👨‍💻 Todos os meus projetos estão disponíveis em https://github.com/luiz-star/luiz-star.github.io
-
-- 📫 Como me Encontrar **riquebue@hotmail.com**
-
- 
-# Skills
-
-* 💻: Python, R, HTML5, Power BI, Azure Machine Learning
-* 🖥: SQL, NoSQL, SQL Server, MongoDB, SQLite
-* ☁️: Google cloud
-* 📁: Data analysis, Machine Learning
-* 📊: Big data analytics 
-* 📙: Matemática
-* 📙: Data Science
-* 📙: Estatistíca
-
-
-
-# My skills
-
-![Windows](https://img.shields.io/badge/-Windows-black?style=flat-square&logo=windows)
-![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
-![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=GitHub)
-![Power BI](https://img.shields.io/badge/-PowerBI-black?style=flat-square&logo=microsoft&logoColor=yellow)
-![Jupyter notebook](https://img.shields.io/badge/Jupyternotebook-black?style=flat-square&logo=Jupyternotebook)
-![R](https://img.shields.io/badge/-R-black?style=flat-square&logo=r&logoColor=darkblue)
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
-![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=HTML5)
-![SQL](https://img.shields.io/badge/-SQL-black?style=flat-square&logo=SQL)
-![SQLite](https://img.shields.io/badge/-SQLite-black?style=flat-square&logo=SQLite)
-![ETL](https://img.shields.io/badge/-ETL-black?style=flat-square&logo=ETL)
-![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=MongoDB)
 <br/>
-<br/>
-<img src="https://img.shields.io/badge/MLflow-blue?style=for-the-badge&logo=MLflow&logoColor=blue" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Google-Colab-blue?style=for-the-badge&logo=Google_Colab&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Google-Cloud-blue?style=for-the-badge&logo=Google_Cloud&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=AzurelogoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Azure-Machine-learningblue?style=for-the-badge&logo=Azure-Machine-learninglogoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Editor-VSCode-blue?style=for-the-badge&logo=visual-studio-code&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Visual-Studio-blue?style=for-the-badge&logo=Visual-Studio&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-<br/>
-## Framework Machine learning and deep learning
-<img src="https://img.shields.io/badge/-Cuda-black?style=for-the-badge&logo=Cuda" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Flask-black?style=for-the-badge&logo=flask" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-TensorFlow-181717?style=for-the-badge&logo=TensorFlow" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Keras-181717?style=for-the-badge&logo=Keras" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Theano-181717?style=for-the-badge&logo=Theano" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-PyTorch-181717?style=for-the-badge&logo=PyTorch" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-TensorFlow GPU-black?style=for-the-badge&logo=TensorFlow_GPU" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Yollo-181717?style=for-the-badge&logo=Yollo" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Scikit Learn-181717?style=for-the-badge&logo=Scikit_Learn" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-NLTK-181717?style=for-the-badge&logo=NLTK" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-<br/>
-## Data analysis
-<img src="https://img.shields.io/badge/-Numpy-181717?style=for-the-badge&logo=Numpy" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Matplotlib-181717?style=for-the-badge&logo=Matplotlib" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Seaborn-181717?style=for-the-badge&logo=Seaborn" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Pandas-181717?style=for-the-badge&logo=Pandas" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-ggplot2-181717?style=for-the-badge&logo=ggplot2" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Ploty-181717?style=for-the-badge&logo=Ploty" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-SciPy -181717?style=for-the-badge&logo=SciPy" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Altair -181717?style=for-the-badge&logo=Altair" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Bokeh -181717?style=for-the-badge&logo=Bokeh" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-<br/>
-## Machine learning
-<img src="https://img.shields.io/badge/-Machine learning-181717?style=for-the-badge&logo=Machine_learning" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Regression model-181717?style=for-the-badge&logo=Regression_model" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-classification-181717?style=for-the-badge&logo=classification" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Data analysis-181717?style=for-the-badge&logo=Data_analysis" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-recommendation systems-181717?style=for-the-badge&logo=recommendation_systems" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Supervised algorithms-181717?style=for-the-badge&logo=supervised_algorithms" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-unsupervised algorithms-181717?style=for-the-badge&logo=unsupervised_algorithms" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Supervised natural language model-181717?style=for-the-badge&logo=Supervised_natural_language_model" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Unnatural language process model-181717?style=for-the-badge&logo=Unnatural_language_process_model" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Time series-181717?style=for-the-badge&logo=Time_series" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-<br/>
-<br/>
-### Statistical
-<img src="https://img.shields.io/badge/-Statistical-181717?style=for-the-badge&logo=statistical" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Frequencies and averages-181717?style=for-the-badge&logo=frequencies_and_averages" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Probability-181717?style=for-the-badge&logo=Probability" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Sampling-181717?style=for-the-badge&logo=Sampling" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Hypotheses-181717?style=for-the-badge&logo=hypotheses" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Correlations-181717?style=for-the-badge&logo=correlations" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Market basket analysis-181717?style=for-the-badge&logo=Market_basket_analysis" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Linear Regression-181717?style=for-the-badge&logo=Linear_regression" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-<br/>
-<br/>
-### Deep learning
-<img src="https://img.shields.io/badge/-ANN Artificial neural network-181717?style=for-the-badge&logo=ANN_Artificial_neural_network" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-CNN Convolutional-181717?style=for-the-badge&logo=ANN_Convolutional" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/-Computer vision-181717?style=for-the-badge&logo=Computer_Vision" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- Stack principal -->
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytics%20%7C%20DW-4479A1?logo=postgresql&logoColor=white)
+![Apache Spark 3.x](https://img.shields.io/badge/Spark-3.x-E25A1C?logo=apache-spark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?logo=terraform&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Observability-F46800?logo=grafana&logoColor=white)
+![AWS Cloud](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws&logoColor=white)
+![Azure Cloud](https://img.shields.io/badge/Cloud-Azure-0078D4?logo=microsoft-azure&logoColor=white)
+
+---
+
+## Status das Actions
+
+- CI de Python (lint e testes)  
+[![CI Python](https://github.com/luiz-star/luiz-star/actions/workflows/ci-python.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/ci-python.yml)
+
+- Build e scan de imagem Docker (Trivy)  
+[![Build and Scan Docker](https://github.com/luiz-star/luiz-star/actions/workflows/docker-build-scan.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/docker-build-scan.yml)
+
+- CodeQL (análise de segurança)  
+[![CodeQL](https://github.com/luiz-star/luiz-star/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/codeql.yml)
+
+---
+
+## Sobre mim
+
+Profissional com 10+ anos em Ciência de Dados, especializado em Governança de Dados e Inteligência de Dados, transformando dados em insights e ações. Experiência em arquiteturas de nuvem (AWS e Azure), segurança, automação e melhores práticas. Atuo também como professor e tutor em pós-graduação.
+
+- Resultados: +35% eficiência operacional, +25% precisão de previsões, +40% qualidade de dados, -30% custos operacionais, +25% velocidade de acesso aos dados.
+- Áreas de interesse: Cloud Computing, Data Engineering, Data Governance, Big Data, Machine Learning, DevOps, IA, Python, Spark, SQL, Analytics Engineering, Grafana.
+
+---
+
+## Diagramas ASCII — Arquiteturas de Referência
+
+AWS Analytics (Lakehouse com Governança)
