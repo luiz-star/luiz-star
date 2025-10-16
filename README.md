@@ -62,35 +62,4 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 
 AWS Analytics (Lakehouse com Governança)
 
-AWS Lakehouse (Governança)
-
-[Produtores]
-Apps/APIs | Batch | CDC
-     |
-     v
-[Ingestão]
-DMS | Glue Jobs | Lambda | Kinesis
-     |
-     v
-+---------------------------+
-|         Data Lake         |
-|  S3 Bronze | Silver | Gold|
-+-----+-----------+---------+
-      |           |
-      v           v
-[Catálogo]    [Governança]
-Glue Catalog  Lake Formation + IAM
-      |           |
-      +-----+-----+
-            |
-            v
-[Consulta/Serviço]
-Athena | Redshift | EMR/Spark
-            |
-            v
-[BI/Consumo]
-QuickSight | Apps | APIs
-            |
-            v
-[Observ./Auditoria]
-CloudWatch | CloudTrail | CW Logs
+Abrir versão interativa (HTML)
