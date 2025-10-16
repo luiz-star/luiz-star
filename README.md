@@ -60,5 +60,39 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 
 ## Diagramas ASCII — Arquiteturas de Referência
 
-AWS Lakehouse
+Claro. Aqui vão as versões com caminho absoluto. Substitua SEU_USUARIO e SEU_REPO pelo seu usuário e repositório no GitHub.
+
+- Exibir a imagem diretamente no README com URL absoluta:
+[AWS Lakehouse](https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/docs/diagramas/aws-lakehouse.svg)
+
+- Link de texto para abrir o SVG em tela cheia:
+[Abrir o SVG em tela cheia](https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/docs/diagramas/aws-lakehouse.svg)
+
+- Link para a versão HTML (GitHub mostra como arquivo, não como página):
+[Abrir versão interativa (HTML)](https://github.com/SEU_USUARIO/SEU_REPO/blob/main/docs/diagramas/aws-lakehouse.html)
+
+- Se você publicar no GitHub Pages (ramo main, pasta /docs), o HTML abre como página:
+https://SEU_USUARIO.github.io/SEU_REPO/diagramas/aws-lakehouse.html
+
+Exemplo preenchido
+- Usuário: luiz-star
+- Repositório: meu-repo-exemplo
+
+Imagem:
+[AWS Lakehouse](https://raw.githubusercontent.com/luiz-star/meu-repo-exemplo/main/docs/diagramas/aws-lakehouse.svg)
+
+SVG em tela cheia:
+[Abrir o SVG em tela cheia](https://raw.githubusercontent.com/luiz-star/meu-repo-exemplo/main/docs/diagramas/aws-lakehouse.svg)
+
+HTML no GitHub:
+[Abrir versão interativa (HTML)](https://github.com/luiz-star/meu-repo-exemplo/blob/main/docs/diagramas/aws-lakehouse.html)
+
+GitHub Pages (se habilitado com /docs):
+https://luiz-star.github.io/meu-repo-exemplo/diagramas/aws-lakehouse.html
+
+Dica:
+- Para habilitar GitHub Pages com a pasta /docs:
+  - Settings > Pages > Source: Deploy from a branch
+  - Branch: main, Folder: /docs
+  - Save. Aguarde 1–3 minutos e use a URL no formato https://SEU_USUARIO.github.io/SEU_REPO/arquivo.html
 
