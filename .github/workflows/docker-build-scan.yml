@@ -10,11 +10,15 @@ on:
 jobs:
   build_and_scan:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Ensure Dockerfile exists
+        shell: bash
         run: |
+          set -e
           if [ ! -f Dockerfile ]; then
             echo "Dockerfile not found in repo root. Creating a minimal one for the first run."
             cat > Dockerfile <<'EOF'
@@ -24,17 +28,27 @@ jobs:
             CMD ["python","-V"]
             EOF
           fi
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
+
       - name: Build image (no push)
         uses: docker/build-push-action@v6
         with:
           context: .
           push: false
           tags: local/app:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
       - name: Install Trivy
         uses: aquasecurity/setup-trivy@v0.2.1
-      - name: Scan image with Trivy (report and fail on CRITICAL)
+
+      - name: Scan image with Trivy (report HIGH/CRITICAL, fail on CRITICAL)
+        shell: bash
         run: |
+          set -e
+          echo "Running informational scan (HIGH,CRITICAL - will not fail)..."
           trivy image --format table --ignore-unfixed --exit-code 0 --severity HIGH,CRITICAL local/app:latest
+          echo "Enforcing failure on CRITICAL only..."
           trivy image --format table --ignore-unfixed --exit-code 1 --severity CRITICAL local/app:latest
