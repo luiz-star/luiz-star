@@ -59,7 +59,6 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 ---
 
 ## Diagramas ASCII — Arquiteturas de Referência
-
 Abrir versão interativa (HTML) no GitHub
 Abrir HTML (raw)
 Abrir como página via GitHub Pages
