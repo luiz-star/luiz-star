@@ -62,44 +62,35 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 
 AWS Analytics (Lakehouse com Governança)
 
-AWS Lakehouse com Governança (detalhado)
+AWS Lakehouse (Governança)
 
-Produtores (OLTP/Streams)
-  - Apps, APIs, DBs, IoT, Batch/ETL, CDC(DMS)
-        |
-        v
-+----------------------------- Ingestão -----------------------------+
-| DMS (CDC) | Glue Jobs (Batch) | Lambda (Eventos) | Kinesis (Streams) |
-+---------------------------+----------------------+-------------------+
-                            |
-                            v
-+========================= Data Lake (S3) ===========================+
-|  Bronze (raw)  |  Silver (curated)  |  Gold (serving/marts)       |
-+-------+--------+----------+----------+-------------+---------------+
-        |                   |                        |
-        v                   v                        v
-  Qualidade básica     Limpeza/Conformidade     Modelos analíticos
-        |                   |                        |
-        +---------+---------+------------------------+
-                  |
-                  v
-+----------------- Catálogo & Governança -----------------+
-| Glue Data Catalog | Lake Formation (LF-Tags, RBAC/ABAC) |
-| IAM (Users/Roles) | S3 Bucket Policies                  |
-+-------------------+-----------------------+-------------+
-                                            |
-                                            v
-+-------------------- Consulta/Processamento --------------------+
-| Athena (SQL) | Redshift (DW) | EMR/Spark | Glue/Spark SQL      |
-+----------------------+--------------------+---------------------+
-                           |
-                           v
-+---------------------- Camada de Consumo -----------------------+
-| QuickSight (BI) | APIs/Apps | Exports (Parquet/CSV)            |
-+-----------------+-----------+----------------------------------+
-                           |
-                           v
-+----------------- Observabilidade & Auditoria ------------------+
-| CloudWatch (métricas/logs) | CloudTrail (auditoria) | CW Logs  |
-+----------------------------------------------------------------+
-                                 +--------------+
+[Produtores]
+Apps/APIs | Batch | CDC
+     |
+     v
+[Ingestão]
+DMS | Glue Jobs | Lambda | Kinesis
+     |
+     v
++---------------------------+
+|         Data Lake         |
+|  S3 Bronze | Silver | Gold|
++-----+-----------+---------+
+      |           |
+      v           v
+[Catálogo]    [Governança]
+Glue Catalog  Lake Formation + IAM
+      |           |
+      +-----+-----+
+            |
+            v
+[Consulta/Serviço]
+Athena | Redshift | EMR/Spark
+            |
+            v
+[BI/Consumo]
+QuickSight | Apps | APIs
+            |
+            v
+[Observ./Auditoria]
+CloudWatch | CloudTrail | CW Logs
