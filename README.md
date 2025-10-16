@@ -60,6 +60,5 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 
 ## Diagramas ASCII — Arquiteturas de Referência
 
-AWS Analytics (Lakehouse com Governança)
-
+AWS Analytics (Lakehouse com Governança) — SVG
 Abrir versão interativa (HTML)
