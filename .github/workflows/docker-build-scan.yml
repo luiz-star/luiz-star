@@ -31,15 +31,26 @@ jobs:
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
+        with:
+          install: true
 
-      - name: Build image (no push)
+      # Build a local image and load it into the Docker daemon so Trivy can see it
+      - name: Build image (load into local daemon)
         uses: docker/build-push-action@v6
         with:
           context: .
           push: false
+          load: true              # <— garante que a imagem apareça como 'docker images'
           tags: local/app:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Verify image exists locally
+        shell: bash
+        run: |
+          set -e
+          docker image inspect local/app:latest > /dev/null
+          echo "Image local/app:latest is available locally."
 
       - name: Install Trivy
         uses: aquasecurity/setup-trivy@v0.2.1
