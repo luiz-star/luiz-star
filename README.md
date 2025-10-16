@@ -21,6 +21,8 @@ Professor e Consultor | Data & Cloud Architect | Governança de Dados | BI & Ana
 
 <br/>
 
+
+
 <!-- Stack principal -->
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Analytics%20%7C%20DW-4479A1?logo=postgresql&logoColor=white)
