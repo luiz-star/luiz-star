@@ -21,12 +21,12 @@ jobs:
           set -e
           if [ ! -f Dockerfile ]; then
             echo "Dockerfile not found in repo root. Creating a minimal one for the first run."
-            cat > Dockerfile <<'EOF'
-FROM python:3.10-slim
-WORKDIR /app
-COPY . .
-CMD ["python","-V"]
-EOF
+            {
+              printf "FROM python:3.10-slim\n"
+              printf "WORKDIR /app\n"
+              printf "COPY . .\n"
+              printf "CMD [\"python\",\"-V\"]\n"
+            } > Dockerfile
           fi
 
       - name: Set up Docker Buildx
