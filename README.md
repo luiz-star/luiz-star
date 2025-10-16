@@ -61,3 +61,35 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 ## Diagramas ASCII — Arquiteturas de Referência
 
 AWS Analytics (Lakehouse com Governança)
+
++------------------------------+
+                        |        Produtores (OLTP)     |
+                        |  Apps / APIs / CDC / Batch   |
+                        +---------------+--------------+
+                                        |
+                                        v
+                          +-------------+-------------+
+                          |         Ingestion         |
+                          |  AWS DMS | Glue Jobs |    |
+                          |  Lambda  | Kinesis  |     |
+                          +-------------+-------------+
+                                        |
+                                        v
++------------------+      +-------------+-------------+       +------------------+
+|   Bronze (Raw)   | ---> |  Silver (Curated/Cleansed)| ----> |  Gold (Serving)  |
+|  S3: raw zone    |      |  S3: curated zone         |       |  S3: mart zone   |
++------------------+      +-------------+-------------+       +---------+--------+
+         |                               |                               |
+         |                               v                               v
+         |                      +--------+--------+             +--------+--------+
+         |                      |  Data Governance|             |   BI / Serving  |
+         |                      | AWS Lake Form.  |             | Athena/Redshift |
+         |                      |   + AWS IAM     |             |   QuickSight    |
+         |                      +--------+--------+             +--------+--------+
+         |                               |                               |
+         v                               v                               v
+  +------+-------+               +-------+------+                +-------+------+
+  |  Catalog     |               | Security &   |                | Consumption  |
+  | Glue DataCat.|               | Audit (Cloud |                |  Tools/Apps  |
+  +--------------+               | Trail, CW)   |                +--------------+
+                                 +--------------+
