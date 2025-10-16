@@ -10,13 +10,16 @@ on:
 jobs:
   lint_and_test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+
       - name: Cache pip
         uses: actions/cache@v4
         with:
@@ -24,15 +27,27 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
+
       - name: Install dependencies
+        shell: bash
         run: |
+          set -e
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
           pip install pytest flake8
+
       - name: Lint (flake8)
-        run: flake8 . --max-line-length=120
-      - name: Run tests (pytest)
+        shell: bash
         run: |
+          set -e
+          flake8 . --max-line-length=120
+
+      - name: Run tests (pytest)
+        shell: bash
+        run: |
+          set -e
           if [ -d tests ]; then
             pytest -q
           else
@@ -40,3 +55,4 @@ jobs:
             mkdir -p tests
             printf "def test_smoke():\n    assert True\n" > tests/test_smoke.py
             pytest -q
+          fi
