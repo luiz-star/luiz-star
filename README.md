@@ -58,7 +58,9 @@ Profissional com 10+ anos em Ciência de Dados, especializado em Governança de 
 
 ---
 
-Diagramas ASCII — Arquiteturas de Referência
-Abrir versão interativa (HTML) no GitHub
-Abrir HTML (raw)
-Abrir como página via GitHub Pages
+## Diagramas ASCII — Arquiteturas de Referência
+Ver no GitHub:
+https://github.com/luiz-star/luiz-star/blob/main/docs/diagramas/aws-lakehouse.html
+
+Versão raw:
+https://raw.githubusercontent.com/luiz-star/luiz-star/main/docs/diagramas/aws-lakehouse.html
