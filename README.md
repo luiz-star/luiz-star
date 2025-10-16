@@ -79,13 +79,13 @@ Exemplo preenchido
 - Repositório: meu-repo-exemplo
 
 Imagem:
-[AWS Lakehouse](https://raw.githubusercontent.com/luiz-star/meu-repo-exemplo/main/docs/diagramas/aws-lakehouse.svg)
+[AWS Lakehouse](https://raw.githubusercontent.com/luiz-star/README.md/main/docs/diagramas/aws-lakehouse.svg)
 
 SVG em tela cheia:
-[Abrir o SVG em tela cheia](https://raw.githubusercontent.com/luiz-star/meu-repo-exemplo/main/docs/diagramas/aws-lakehouse.svg)
+[Abrir o SVG em tela cheia](https://raw.githubusercontent.com/luiz-star/README.md/main/docs/diagramas/aws-lakehouse.svg)
 
 HTML no GitHub:
-[Abrir versão interativa (HTML)](https://github.com/luiz-star/meu-repo-exemplo/blob/main/docs/diagramas/aws-lakehouse.html)
+[Abrir versão interativa (HTML)](https://github.com/luiz-star/README.md/blob/main/docs/diagramas/aws-lakehouse.html)
 
 GitHub Pages (se habilitado com /docs):
 https://luiz-star.github.io/meu-repo-exemplo/diagramas/aws-lakehouse.html
