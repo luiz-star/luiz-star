@@ -1,4 +1,4 @@
-name: CodeQL
+name: CodeQL (auto languages)
 
 on:
   push:
@@ -10,47 +10,98 @@ on:
   workflow_dispatch:
 
 jobs:
-  analyze:
-    name: Analyze (CodeQL)
+  detect-languages:
+    name: Detect languages
     runs-on: ubuntu-latest
+    outputs:
+      langs: ${{ steps.detect.outputs.langs }}
+      has_any: ${{ steps.detect.outputs.has_any }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Detect languages present
+        id: detect
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          has_py=false
+          has_js=false
+          has_go=false
+          has_java=false
+
+          # Detect Python
+          if git ls-files '**/*.py' | grep -q .; then has_py=true; fi
+
+          # Detect JS/TS
+          if git ls-files '**/*.{js,jsx,ts,tsx}' 2>/dev/null | grep -q .; then has_js=true; fi
+
+          # Detect Go
+          if git ls-files '**/*.go' | grep -q .; then has_go=true; fi
+
+          # Detect Java (inclui Kotlin opcionalmente)
+          if git ls-files '**/*.java' | grep -q .; then has_java=true; fi
+          # Para incluir Kotlin, descomente:
+          # if git ls-files '**/*.kt' | grep -q .; then has_java=true; fi
+
+          langs=()
+
+          $has_py && langs+=("python")
+          $has_js && langs+=("javascript")
+          $has_go && langs+=("go")
+          $has_java && langs+=("java")
+
+          if [ ${#langs[@]} -eq 0 ]; then
+            echo "No supported languages found. Skipping analysis."
+            echo "has_any=false" >> "$GITHUB_OUTPUT"
+            echo 'langs=[]' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Emit JSON array for matrix
+          json='['
+          sep=''
+          for l in "${langs[@]}"; do
+            json+="${sep}\"$l\""
+            sep=,
+          done
+          json+=']'
+
+          echo "Detected languages: $json"
+          echo "has_any=true" >> "$GITHUB_OUTPUT"
+          echo "langs=$json" >> "$GITHUB_OUTPUT"
+
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    needs: detect-languages
+    if: needs.detect-languages.outputs.has_any == 'true'
+    runs-on: ubuntu-latest
+
     permissions:
       actions: read
       contents: read
       security-events: write
 
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ${{ fromJson(needs.detect-languages.outputs.langs) }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Detect Python sources
-        id: detect
-        shell: bash
-        run: |
-          set -e
-          if git ls-files '*.py' | grep -q .; then
-            echo "has_py=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_py=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Skip when no Python sources
-        if: steps.detect.outputs.has_py == 'false'
-        run: |
-          echo "No Python sources found. Skipping CodeQL."
-          exit 0
-
       - name: Initialize CodeQL
-        if: steps.detect.outputs.has_py == 'true'
         uses: github/codeql-action/init@v3
         with:
-          languages: python
+          languages: ${{ matrix.language }}
 
+      # Autobuild funciona para a maioria das linguagens suportadas.
       - name: Autobuild
-        if: steps.detect.outputs.has_py == 'true'
         uses: github/codeql-action/autobuild@v3
 
       - name: Perform CodeQL Analysis
-        if: steps.detect.outputs.has_py == 'true'
         uses: github/codeql-action/analyze@v3
         with:
-          category: "/language:python"
+          category: "/language:${{ matrix.language }}"
