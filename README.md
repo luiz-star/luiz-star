@@ -64,3 +64,6 @@ https://github.com/luiz-star/luiz-star/blob/main/docs/diagramas/aws-lakehouse.ht
 
 Versão raw:
 https://raw.githubusercontent.com/luiz-star/luiz-star/main/docs/diagramas/aws-lakehouse.html
+
+Para ver renderizado como página, use o Pages:
+https://luiz-star.github.io/luiz-star/diagramas/aws-lakehouse.html
