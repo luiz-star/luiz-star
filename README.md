@@ -40,12 +40,15 @@ Professor e Consultor | Data & Cloud Architect | Governança de Dados | BI & Ana
 
 - CI de Python (lint e testes)  
 [![CI Python](https://github.com/luiz-star/luiz-star/actions/workflows/ci-python.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/ci-python.yml)
+<sub>Executa lint (ex.: ruff/flake8) e testes (pytest) em cada push/PR para garantir qualidade e prevenir regressões.</sub>
 
 - Build e scan de imagem Docker (Trivy)  
 [![Build and Scan Docker](https://github.com/luiz-star/luiz-star/actions/workflows/docker-build-scan.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/docker-build-scan.yml)
+<sub>Constrói a imagem Docker e realiza varredura de vulnerabilidades com Trivy.</sub>
 
 - CodeQL (análise de segurança)  
 [![CodeQL](https://github.com/luiz-star/luiz-star/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/luiz-star/luiz-star/actions/workflows/codeql.yml)
+<sub>Faz análise estática com CodeQL para identificar padrões inseguros e potenciais vulnerabilidades.</sub>
 
 ---
 
