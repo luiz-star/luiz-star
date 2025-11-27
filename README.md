@@ -18,7 +18,7 @@ Professor e Consultor | Data & Cloud Architect | Governança de Dados | BI & Ana
 [![AWS Certified Solutions Architect – Professional](https://img.shields.io/badge/AWS-Solutions%20Architect%20Pro-orange?logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/9f4c64e4-d1f2-4a00-976e-82275e844ec7/public_url)
 [![Microsoft Certified: Azure Solutions Architect Expert](https://img.shields.io/badge/Azure-Solutions%20Architect%20Expert-0078D4?logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/pt-br/users/luizhenriquedeoliveirabueno-7070/credentials/dd00a3f2c24ed014?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 [![Microsoft Certified: Azure Administrator Associate](https://img.shields.io/badge/Azure-Administrator%20Associate-0078D4?logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/pt-br/users/luizhenriquedeoliveirabueno-7070/credentials/bf7ca8841cd428e2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
-[![Microsoft Certified: Fabric Associate Data Engineer](https://img.shields.io/badge/Microsoft%20Certified-Fabric%20Associate%20Data%20Engineer-0078D4?logo=microsoft&logoColor=white)](https://learn.microsoft.com/pt-br/credentials/share/pt-br/luizhenriquedeoliveirabueno-7070/9DF642887664C4F?sharingId=9CB2DF4CB5B24DA9)
+[![Microsoft Certified: Fabric Associate Data Engineer](https://img.shields.io/badge/Microsoft%20Certified-Fabric%20Associate%20Data%20Engineer-0078D4?logo=microsoft&logoColor=white)](https://learn.microsoft.com/pt-br/credentials/share/pt-br/luizhenriquedeoliveirabueno-7070/9df642887664c4f?sharingId=9cb2df4cb5b24da9)
 
 <br/>
 
